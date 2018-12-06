@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="logic.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <script src="assets/logic.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Emma Muniz Portfolio</title>
 </head>
@@ -16,7 +18,7 @@
     
 <nav>
     <div class="nav-wrapper blue-grey">
-        <a href="#" class="brand-logo">Emma Muniz</a>
+        <a href="#" class="brand-logo"><strong>Emma Muniz</strong></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.html"> Home </a></li>
@@ -33,32 +35,176 @@
         <li><a href="mobile.html">Mobile</a></li>
     </ul>
 
-
-
-   
-    <div class="col s12 m7; z-depth-5">
-        <h4 class="header"></h4>
-            <div class="card horizontal">
-                <div class="card-image">
-            <img src="assets/images/profile-pic.jpg" class= "circle">
+    <!--<div class="parallax-container">
+        <div class="parallax"><img src=""></div>
+    </div>
+           -->
+     
+    <div class="section teal lighten-2">
+        <div class="row container">
+            <h4 class="header"><strong>About Me</strong></h4>
+            
+                <div class="col s12 m7; z-depth-5">
+                    <h4 class="header"></h4>
+                <div class="card horizontal">
+                    <div class="card-image">
+                <img src="assets/images/profile-pic.jpg" class= "circle responsive-img">
+                    </div>
+                <div class="card-stacked">
+                <div class="card-content blue-grey">
+                    <p> Hi Everyone!  I like to go on long walks on the beach and yell rude things at people.  </p>
                 </div>
-            <div class="card-stacked">
-            <div class="card-content blue-grey">
-              <p> Hi Everyone!  I like to go on long walks on the beach and yell rude things at people.  </p>
-            </div>
-            <!--<div class="card-action">
-              <a href="#">This is a link</a>
-            </div>-->
+                    <!--<div class="card-action">
+                    <a href="#">This is a link</a>
+                    </div>-->
+                </div>
             </div>
         </div>
     </div>
+    </div>
+      <div class="parallax-container2">
+        <div class="parallax"><img src=""></div>
+      </div>
+    </div>
+
+    <!--Portfolio Section-->
+
+   
+
+    <div class="portfolio-section teal lighten-2 z-depth-5">
+            <h3><strong>Portfolio</strong></h3>
+    <div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1 z-depth-5">
+            <div class="card-content white-text">
+              <span class="card-title"><strong>Brewery Heaven</strong></span>
+              <p>This app was created to find breweries in any city.  It uses an API from breweryDB to pull the information from the search.  You can also click on the Lyft button to get a ride.  This app is still in development with more features coming in the future!
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.breweryheaven.com" target="_blank">Live Page</a>
+              <a href="https://github.com/clderoch/GroupSix-Project1" target="_blank">Github Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="card blue-grey darken-1 z-depth-5">
+              <div class="card-content white-text">
+                <span class="card-title"><strong>Trivia Game</strong></span>
+                <p> This is a geography themed Trivia Game that I created, but the theme could easily be changed by updated the questions/answers within the code.  Each question is multiple choice and timed.  It was created using HTML, CSS and JQuery. </p>
+              </div>
+              <div class="card-action">
+                <a href="https://elm1212.github.io/TriviaGame/" target="_blank">Live Page</a>
+                <a href="https://github.com/Elm1212/TriviaGame" target="_blank">Github Code</a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1 z-depth-5">
+            <div class="card-content white-text">
+              <span class="card-title"><strong>Get Giphy With It!</strong></span>
+              <p> This is an app that using the API from Giphy.com to pull GIF's to the page with a keyword search.  A button will be added containing your keyword and you can also start and pause each GIF that comes up.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://elm1212.github.io/Giphy_API/" target="_blank">Live Page</a>
+              <a href="https://github.com/Elm1212/Giphy_API" target="_blank">Github Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="card blue-grey darken-1 z-depth-5">
+              <div class="card-content white-text">
+                <span class="card-title"><strong>Word Guess Game</strong></span>
+                <p> This is a hangman style game that gives you 10 tries before you lose.  Just pick any letter on your keyboard and it will either go into the blank spot in the word or will go to the used letter bank. Have Fun!</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Live Page</a>
+                <a href="#">Github Code</a>
+              </div>
+            </div>
+          </div>
+      </div>
 
     </div>
 
+      <div class="parallax-container3">
+        <div class="parallax"><img src=""></div>
+      </div>
 
-      
-    <a class="btn-floating pulse"><i class="material-icons">linkedin</i></a>
-    <a class="btn-floating pulse"><i class="material-icons">cloud</i></a>
-    <a class="btn-floating pulse"><i class="material-icons">edit</i></a>
+
+
+      <footer class="page-footer blue-grey darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">CONTACT ME</h5>
+              <p class="grey-text text-lighten-4">I would love to hear from you! Feel free to email me @ EmmaL.muniz@gmail.com Checkout my Linkedin profile and my code on Github! </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="https://github.com/Elm1212" target="_blank">Github</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/emma-muniz-99a70192" target="_blank">LinkedIn</a></li>
+                <li><a class="grey-text text-lighten-3" href="mailto:emmal.muniz@gmail.com" target="_blank">EmmaL.Muniz@gmail.com</a></li>
+            
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2018 Copyright Emma Muniz
+          
+          </div>
+        </div>
+      </footer>
+
+
+<!-- Start of container 
+  <div class="container">
+    <main class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h3 class="block-header">Portfolio</h3>
+          <hr />
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  </div>
+  End of container -->
+
+
+    
+        <!-- <a class="btn-floating pulse"><i class="large material-icons">work_outline</i></a>
+         <a class="btn-floating pulse"><i class="material-icons">chat_bubble_outline</i></a>
+         <a class="btn-floating pulse"><i class="material-icons">home</i></a>
+        -->
+    
+
+
 </body>
 </html>

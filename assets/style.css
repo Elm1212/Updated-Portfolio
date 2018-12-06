@@ -1,8 +1,66 @@
-.parallax-container {
-    height: "15px";
-  }
+body {
+    background-color: teal;
+}
 
 #main-container {
     width: 20px;
 
+}
+
+.parallax-container {
+    height: 150px;
+    background-image: url("images/water2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-container2 {
+    height: 200px;
+    background-image: url("images/water2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-container3 {
+    height: 200px;
+    background-image: url("images/rocks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.port-image {
+    margin: 20px auto;
+}
+
+.card-stacked {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-wrapper {
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.portfolio-section {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.header {
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
+
+footer {
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+
+h3 {
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
 }
